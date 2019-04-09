@@ -1,0 +1,15 @@
+org/apache/skywalking/apm/agent/test/tools/SpanAssert.class
+org/apache/skywalking/apm/agent/test/helper/SpanHelper.class
+org/apache/skywalking/apm/agent/test/tools/SegmentStorage.class
+org/apache/skywalking/apm/agent/test/tools/TracingSegmentRunner$1.class
+org/apache/skywalking/apm/agent/test/helper/SegmentRefHelper.class
+org/apache/skywalking/apm/agent/test/tools/AgentServiceRule.class
+org/apache/skywalking/apm/agent/test/tools/TracingSegmentRunner$1$2.class
+org/apache/skywalking/apm/agent/test/tools/TracingSegmentRunner$1$1.class
+org/apache/skywalking/apm/agent/core/context/MockContextSnapshot.class
+org/apache/skywalking/apm/agent/test/helper/FieldGetter.class
+org/apache/skywalking/apm/agent/test/helper/FieldSetter.class
+org/apache/skywalking/apm/agent/test/tools/SegmentRefAssert.class
+org/apache/skywalking/apm/agent/test/tools/SegmentStoragePoint.class
+org/apache/skywalking/apm/agent/test/helper/SegmentHelper.class
+org/apache/skywalking/apm/agent/test/tools/TracingSegmentRunner.class

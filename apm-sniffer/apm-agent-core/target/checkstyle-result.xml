@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.11">
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/base64/Base64.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/boot/AgentPackageNotFoundException.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/boot/AgentPackagePath.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/boot/BootService.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/boot/DefaultImplementor.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/boot/DefaultNamedThreadFactory.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/boot/OverrideImplementor.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/boot/ServiceConflictException.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/boot/ServiceManager.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/conf/Config.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/conf/ConfigNotFoundException.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/conf/ConfigReadFailedException.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/conf/Constants.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/conf/RemoteDownstreamConfig.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/conf/RuntimeContextConfiguration.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/conf/SnifferConfigInitializer.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/AbstractTracerContext.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/AsyncSpan.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/CarrierItem.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/CarrierItemHead.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/ContextCarrier.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/ContextManager.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/ContextManagerExtendService.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/ContextSnapshot.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/ids/DistributedTraceId.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/ids/DistributedTraceIds.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/ids/GlobalIdGenerator.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/ids/ID.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/ids/NewDistributedTraceId.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/ids/PropagatedTraceId.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/IgnoredTracerContext.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/IgnoreTracerContextListener.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/Injectable.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/RuntimeContext.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/RuntimeContextSnapshot.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/SW3CarrierItem.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/SW6CarrierItem.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/tag/AbstractTag.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/tag/StringTag.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/tag/Tags.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/trace/AbstractSpan.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/trace/AbstractTracingSpan.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/trace/EntrySpan.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/trace/ExitSpan.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/trace/LocalSpan.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/trace/LogDataEntity.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/trace/NoopExitSpan.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/trace/NoopSpan.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/trace/SpanLayer.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/trace/StackBasedTracingSpan.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/trace/TraceSegment.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/trace/TraceSegmentRef.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/trace/WithPeerInfo.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/TraceContextCarrierItem.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/TracingContext.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/TracingContextListener.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/util/KeyValuePair.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/util/TagValuePair.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/util/ThrowableTransformer.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/dictionary/DictionaryManager.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/dictionary/DictionaryUtil.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/dictionary/EndpointNameDictionary.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/dictionary/Found.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/dictionary/NetworkAddressDictionary.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/dictionary/NotFound.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/dictionary/PossibleFound.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/jvm/cpu/CPUMetricAccessor.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/jvm/cpu/CPUProvider.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/jvm/cpu/NoSupportedCPUAccessor.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/jvm/cpu/SunCpuAccessor.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/jvm/gc/CMSGCModule.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/jvm/gc/G1GCModule.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/jvm/gc/GCMetricAccessor.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/jvm/gc/GCModule.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/jvm/gc/GCProvider.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/jvm/gc/ParallelGCModule.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/jvm/gc/SerialGCModule.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/jvm/gc/UnknowGC.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/jvm/JVMService.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/jvm/memory/MemoryProvider.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/jvm/memorypool/CMSCollectorModule.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/jvm/memorypool/G1CollectorModule.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/jvm/memorypool/MemoryPoolMetricAccessor.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/jvm/memorypool/MemoryPoolModule.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/jvm/memorypool/MemoryPoolProvider.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/jvm/memorypool/ParallelCollectorModule.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/jvm/memorypool/SerialCollectorModule.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/jvm/memorypool/UnknownMemoryPool.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/logging/api/ILog.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/logging/api/LogManager.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/logging/api/LogResolver.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/logging/api/NoopLogger.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/logging/core/EasyLogger.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/logging/core/EasyLogResolver.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/logging/core/FileWriter.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/logging/core/IWriter.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/logging/core/LogLevel.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/logging/core/LogMessageHolder.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/logging/core/SystemOutWriter.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/logging/core/WriterFactory.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/os/OSUtil.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/os/ProcessorUtil.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/AbstractClassEnhancePluginDefine.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/bytebuddy/AbstractJunction.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/bytebuddy/ArgumentTypeNameMatch.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/DynamicPluginLoader.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/EnhanceContext.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/exception/IllegalPluginDefineException.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/interceptor/ConstructorInterceptPoint.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/interceptor/DeclaredInstanceMethodsInterceptPoint.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/interceptor/enhance/ClassEnhancePluginDefine.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/interceptor/enhance/ClassInstanceMethodsEnhancePluginDefine.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/interceptor/enhance/ClassStaticMethodsEnhancePluginDefine.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/interceptor/enhance/ConstructorInter.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/interceptor/enhance/EnhancedInstance.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/interceptor/enhance/InstanceConstructorInterceptor.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/interceptor/enhance/InstanceMethodsAroundInterceptor.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/interceptor/enhance/InstMethodsInter.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/interceptor/enhance/InstMethodsInterWithOverrideArgs.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/interceptor/enhance/MethodInterceptResult.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/interceptor/enhance/OverrideCallable.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/interceptor/enhance/StaticMethodsAroundInterceptor.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/interceptor/enhance/StaticMethodsInter.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/interceptor/enhance/StaticMethodsInterWithOverrideArgs.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/interceptor/EnhanceException.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/interceptor/InstanceMethodsInterceptPoint.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/interceptor/InterceptorException.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/interceptor/StaticMethodsInterceptPoint.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/loader/AgentClassLoader.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/loader/InstrumentationLoader.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/loader/InterceptorInstanceLoader.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/match/ClassAnnotationMatch.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/match/ClassMatch.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/match/HierarchyMatch.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/match/IndirectMatch.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/match/MethodAnnotationMatch.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/match/MultiClassNameMatch.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/match/NameMatch.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/match/ProtectiveShieldMatcher.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/PluginBootstrap.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/PluginCfg.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/PluginDefine.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/PluginException.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/PluginFinder.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/PluginResourcesResolver.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/plugin/WitnessClassFinder.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/remote/AuthenticationDecorator.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/remote/ChannelBuilder.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/remote/ChannelDecorator.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/remote/GRPCChannel.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/remote/GRPCChannelListener.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/remote/GRPCChannelManager.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/remote/GRPCChannelStatus.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/remote/GRPCStreamServiceStatus.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/remote/RESTResponseStatusError.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/remote/ServiceAndEndpointRegisterClient.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/remote/StandardChannelBuilder.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/remote/TLSChannelBuilder.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/remote/TraceSegmentServiceClient.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/sampling/SamplingService.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/util/MethodUtil.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/test/java/org/apache/skywalking/apm/agent/core/boot/DefaultNamedThreadFactoryTest.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/test/java/org/apache/skywalking/apm/agent/core/boot/ServiceManagerTest.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/test/java/org/apache/skywalking/apm/agent/core/conf/SnifferConfigInitializerTest.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/test/java/org/apache/skywalking/apm/agent/core/context/ContextCarrierV2HeaderTest.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/test/java/org/apache/skywalking/apm/agent/core/context/ContextManagerTest.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/test/java/org/apache/skywalking/apm/agent/core/context/IgnoredTracerContextTest.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/test/java/org/apache/skywalking/apm/agent/core/context/TracingContextTest.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/test/java/org/apache/skywalking/apm/agent/core/context/util/AbstractTracingSpanHelper.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/test/java/org/apache/skywalking/apm/agent/core/context/util/FieldGetter.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/test/java/org/apache/skywalking/apm/agent/core/context/util/SegmentHelper.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/test/java/org/apache/skywalking/apm/agent/core/context/util/SpanHelper.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/test/java/org/apache/skywalking/apm/agent/core/context/util/TraceSegmentRefHelper.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/test/java/org/apache/skywalking/apm/agent/core/logging/core/EasyLoggerTest.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/test/java/org/apache/skywalking/apm/agent/core/logging/core/EasyLogResolverTest.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/test/java/org/apache/skywalking/apm/agent/core/logging/core/FileWriterTest.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/test/java/org/apache/skywalking/apm/agent/core/logging/core/SystemOutWriterTest.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/test/java/org/apache/skywalking/apm/agent/core/remote/GRPCChannelManagerTest.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/test/java/org/apache/skywalking/apm/agent/core/remote/TraceSegmentServiceClientTest.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/test/java/org/apache/skywalking/apm/agent/core/test/tools/AgentServiceRule.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/test/java/org/apache/skywalking/apm/agent/core/test/tools/SegmentStorage.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/test/java/org/apache/skywalking/apm/agent/core/test/tools/SegmentStoragePoint.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/test/java/org/apache/skywalking/apm/agent/core/test/tools/TracingSegmentRunner.java">
+</file>
+<file name="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/src/test/java/org/apache/skywalking/apm/agent/core/util/MethodUtilTest.java">
+</file>
+</checkstyle>

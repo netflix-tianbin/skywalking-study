@@ -1,0 +1,5 @@
+org/apache/skywalking/apm/agent/SkyWalkingAgent$1.class
+org/apache/skywalking/apm/agent/InstrumentDebuggingClass.class
+org/apache/skywalking/apm/agent/SkyWalkingAgent$Listener.class
+org/apache/skywalking/apm/agent/SkyWalkingAgent.class
+org/apache/skywalking/apm/agent/SkyWalkingAgent$Transformer.class

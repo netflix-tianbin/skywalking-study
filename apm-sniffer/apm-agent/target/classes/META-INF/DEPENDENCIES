@@ -1,0 +1,19 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+apm-agent
+
+
+From: 'an unknown organization'
+  - Byte Buddy (without dependencies) (http://bytebuddy.net/byte-buddy) net.bytebuddy:byte-buddy:jar:1.9.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (https://www.apache.org/)
+  - apm-agent-core (http://maven.apache.org) org.apache.skywalking:apm-agent-core:jar:6.1.0-SNAPSHOT
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

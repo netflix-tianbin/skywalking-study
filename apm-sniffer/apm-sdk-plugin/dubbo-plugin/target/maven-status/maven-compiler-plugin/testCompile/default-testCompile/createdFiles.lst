@@ -1,0 +1,3 @@
+org/apache/skywalking/apm/plugin/dubbo/ContextManagerExtendOverrideService.class
+org/apache/skywalking/apm/plugin/dubbo/DubboInterceptorTest.class
+org/apache/skywalking/apm/plugin/dubbo/PluginBootService.class

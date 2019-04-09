@@ -1,0 +1,2 @@
+JMH S 52 org.apache.skywalking.apm.util.StringFormatGroupTest S 80 org.apache.skywalking.apm.util.generated.StringFormatGroupTest_testMatch_jmhTest S 9 testMatch S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 52 org.apache.skywalking.apm.util.StringFormatGroupTest S 82 org.apache.skywalking.apm.util.generated.StringFormatGroupTest_test100Rule_jmhTest S 11 test100Rule S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 

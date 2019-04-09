@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <taskdef resource="net/sf/antcontrib/antcontrib.properties" classpathref="maven.runtime.classpath"/>
+  <if>
+    <equals arg2="jar" arg1="pom"/>
+    <then>
+      <mkdir dir="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-sdk-plugin/target/../../../../skywalking-agent/plugins"/>
+      <copy file="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-sdk-plugin/target/apm-sdk-plugin-6.1.0-SNAPSHOT.jar" tofile="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-sdk-plugin/target/../../../../skywalking-agent/plugins/apm-sdk-plugin-6.1.0-SNAPSHOT.jar" overwrite="true"/>
+    </then>
+  </if>
+</target>
+</project>

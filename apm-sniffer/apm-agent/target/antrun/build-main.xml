@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <mkdir dir="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent/../../skywalking-agent"/>
+  <copy file="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent/target/skywalking-agent.jar" tofile="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent/../../skywalking-agent/skywalking-agent.jar" overwrite="true"/>
+  <mkdir dir="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent/../../skywalking-agent/config"/>
+  <mkdir dir="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent/../../skywalking-agent/logs"/>
+  <copydir src="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent/../config" forceoverwrite="true" dest="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent/../../skywalking-agent/config"/>
+</target>
+</project>

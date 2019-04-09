@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Title: apm-agent-core
+Implementation-Version: 6.1.0-SNAPSHOT
+Built-By: tianbin
+Specification-Vendor: The Apache Software Foundation
+Specification-Title: apm-agent-core
+Implementation-Vendor-Id: org.apache.skywalking
+Created-By: Apache Maven 3.5.4
+Build-Jdk: 1.8.0_181
+Specification-Version: 6.1
+Implementation-URL: http://maven.apache.org
+Implementation-Vendor: The Apache Software Foundation
+

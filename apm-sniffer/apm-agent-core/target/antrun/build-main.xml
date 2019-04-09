@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo message="unjar"/>
+  <unzip src="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/target/apm-agent-core-6.1.0-SNAPSHOT.jar" dest="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/target/unpacked/"/>
+  <echo message="rename service providers in META-INF/services"/>
+  <move file="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/target/unpacked/META-INF/native/libnetty_tcnative_osx_x86_64.jnilib" tofile="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/target/unpacked/META-INF/native/liborg_apache_skywalking_apm_dependencies_netty_tcnative_osx_x86_64.jnilib"/>
+  <move file="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/target/unpacked/META-INF/native/libnetty_tcnative_linux_x86_64.so" tofile="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/target/unpacked/META-INF/native/liborg_apache_skywalking_apm_dependencies_netty_tcnative_linux_x86_64.so"/>
+  <move file="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/target/unpacked/META-INF/native/netty_tcnative_windows_x86_64.dll" tofile="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/target/unpacked/META-INF/native/org_apache_skywalking_apm_dependencies_netty_tcnative_windows_x86_64.dll"/>
+  <echo message="jar back"/>
+  <jar basedir="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/target/unpacked" destfile="/Users/tianbin/tianbin/workspace/github-workspace/incubator-skywalking/apm-sniffer/apm-agent-core/target/apm-agent-core-6.1.0-SNAPSHOT.jar"/>
+</target>
+</project>
